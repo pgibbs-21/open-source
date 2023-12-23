@@ -12,11 +12,10 @@ header {
     display:flex;
     justify-content:space-between;
     align-items: center;
-    padding: 15px 60px;
+    padding: 5px 30px;
     position: relative;
-   
+    background-color: rgba(0, 0, 0, 0.75);
     
-    background-color: black;
 }
 
 header ul {
@@ -34,7 +33,7 @@ ul a {
   font-family: "Oleo Script", sans-serif;
   color: rgb(231, 157, 59);
   text-decoration: none;
-  font-size: 50px;
+  font-size: 40px;
   text-transform: uppercase;
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
   font-weight: 100;
