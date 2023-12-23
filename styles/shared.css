@@ -13,9 +13,10 @@ header {
     justify-content:space-between;
     align-items: center;
     padding: 5px 30px;
-    position: relative;
-    background-color: rgba(0, 0, 0, 0.75);
-    
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 header ul {
@@ -25,7 +26,6 @@ header li {
     margin-left: 20px;
 }
 ul a {
-    text-decoration: none;
     color: rgb(255, 255, 255);?}
 
 #page-logo a {
