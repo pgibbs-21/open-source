@@ -57,12 +57,16 @@
   color: rgb(59, 65, 64);
   margin: 12px;
 }
+ul a {
+  color: rgb(255, 255, 255);
+}
 #destinations {
   display: flex;
   justify-content: center;
   margin-bottom: 12px;
   margin: -25px;
 }
+
 .destinations {
   margin: 20px;
   text-transform: uppercase;
@@ -87,4 +91,3 @@
 .destinations strong {
   color: rgb(0, 160, 117);
 }
-

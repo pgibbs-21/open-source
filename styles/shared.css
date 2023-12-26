@@ -9,21 +9,19 @@ ul {
   margin-right: 12px;
 }
 header {
-    display:flex;
-    justify-content:space-between;
-    align-items: center;
-    background: linear-gradient(180deg, rgb(35, 35, 35), rgb(68, 67, 67));
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(180deg, rgb(35, 35, 35), rgb(68, 67, 67));
+  width: 100%;
 }
 
 header ul {
   display: flex;
 }
 header li {
-    padding: 10px;
+  padding: 10px;
 }
-ul a {
-    color: rgb(255, 255, 255);?}
 
 #page-logo a {
   padding: 15px;
@@ -40,8 +38,8 @@ header a {
 }
 header li a:hover {
   background-color: rgb(73, 78, 78);
-  border-radius: 8px !important;
-  padding: 4px; 
+  border-radius: 8px;
+  padding: 4px;
 }
 #social-media {
   display: flex;
@@ -61,4 +59,3 @@ footer {
   background: linear-gradient(180deg, rgb(35, 35, 35), rgb(68, 67, 67));
   padding: 5px;
 }
-
