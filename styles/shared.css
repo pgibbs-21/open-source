@@ -12,24 +12,21 @@ header {
     display:flex;
     justify-content:space-between;
     align-items: center;
-    padding: 5px 30px;
-    position: absolute;
-    z-index: 5;
+    background: linear-gradient(180deg, rgb(35, 35, 35), rgb(68, 67, 67));
     width: 100%;
-    box-sizing: border-box;
 }
 
 header ul {
   display: flex;
 }
 header li {
-    margin-left: 20px;
+    padding: 10px;
 }
 ul a {
     color: rgb(255, 255, 255);?}
 
 #page-logo a {
-  padding: 10px;
+  padding: 15px;
   font-family: "Oleo Script", sans-serif;
   color: rgb(231, 157, 59);
   text-decoration: none;
@@ -41,10 +38,10 @@ ul a {
 header a {
   text-decoration: none;
 }
-header a:hover {
+header li a:hover {
   background-color: rgb(73, 78, 78);
-  border-radius: 8px;
-  padding: 4px;
+  border-radius: 8px !important;
+  padding: 4px; 
 }
 #social-media {
   display: flex;
