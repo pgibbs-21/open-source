@@ -10,7 +10,7 @@ body {
 }
 main ul {
   list-style: none;
-  width: 95%;
+  width: 1400px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 15px 15px;
@@ -43,7 +43,7 @@ main li img {
 }
 
 .item-content {
-  padding: 24px;
+  padding: 18px;
   display:flex;
   flex-direction: column;
   justify-content: space-between;
