@@ -6,14 +6,14 @@ header {
 }
 body {
   background: linear-gradient(130deg, rgb(232, 228, 228), rgb(47, 44, 44));
+  color: rgb(80, 84, 85);
 }
 main ul {
   list-style: none;
-  margin: 0 auto;
-  color: rgb(86, 92, 94);
-  padding: 0 8px;
   width: 90%;
   display: grid;
+  gap: 15px 15px;
+  grid-template-columns: 1fr 1fr;
 }
 
 main li img {
@@ -24,28 +24,41 @@ main li img {
 main li {
   display: flex;
   background-color: rgb(245, 250, 255);
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.6);
   border-radius: 6px;
   overflow: hidden;
 }
+
+main li:nth-of-type(3) {
+  grid-column: 1 / span 2;
+}
+main li:nth-of-type(6) {
+  grid-column: 1 / span 2;
+}
+main li:nth-of-type(9) {
+  grid-column: 1 / span 2;
+}
+main li:nth-of-type(10) {
+  grid-column: 1 / span 2;
+}
 .item-content {
   padding: 24px;
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.actions{
-  text-align: right;
-}
-.actions a{
+
+text-align: right;
+
+.actions a {
   color: rgb(15, 149, 194);
   text-decoration: none;
   padding: 10px;
+  border-radius: 10px;
 }
 
 .actions a:hover {
   background-color: rgb(51, 52, 53);
-  border-radius: 10px;
   padding: 4px;
 }
 .actions a img {
