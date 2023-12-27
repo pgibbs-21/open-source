@@ -5,15 +5,16 @@ header {
   color: rgb(15, 149, 194);
 }
 body {
-  background: linear-gradient(130deg, rgb(232, 228, 228), rgb(47, 44, 44));
+  background: linear-gradient(130deg, rgb(176, 173, 173), rgb(47, 44, 44));
   color: rgb(86, 92, 94);
 }
 main ul {
   list-style: none;
-  width: 1400px;
+  width: 1300px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 15px 15px;
+  margin: 0 65px 16px 65px;
 }
 
 main li:nth-of-type(3) {
@@ -31,7 +32,7 @@ main li:nth-of-type(10){
 main li {
   display: flex;
   background-color: rgb(245, 250, 255);
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
   border-radius: 6px;
   overflow: hidden;
 }
