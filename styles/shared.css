@@ -2,27 +2,34 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  margin-right: 12px;
-}
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: linear-gradient(180deg, rgb(35, 35, 35), rgb(68, 67, 67));
   width: 100%;
+  border-radius: 6px;
 }
 
 header ul {
   display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-right: 12px;
 }
 header li {
   padding: 10px;
 }
-
+header a {
+  text-decoration: none;
+  color:rgb(242, 232, 232);
+}
+header li a:hover {
+  background-color: rgb(73, 78, 78);
+  border-radius: 8px;
+  padding: 4px;
+}
 #page-logo a {
   padding: 15px;
   font-family: "Oleo Script", sans-serif;
@@ -33,14 +40,7 @@ header li {
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
   font-weight: 100;
 }
-header a {
-  text-decoration: none;
-}
-header li a:hover {
-  background-color: rgb(73, 78, 78);
-  border-radius: 8px;
-  padding: 4px;
-}
+
 #social-media {
   display: flex;
   justify-content: center;
