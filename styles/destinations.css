@@ -38,7 +38,7 @@ main li {
 }
 
 main li img {
-  width: 350px;
+  width: 300px;
   height: auto;
   border-radius: 4px;
 }
@@ -48,6 +48,10 @@ main li img {
   display:flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.item-content h2{
+  margin:0;
 }
 .actions {
   text-align: right;
