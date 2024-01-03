@@ -1,42 +1,42 @@
 #hero {
-    height: 700px;
+    height: 47.75rem;
     background-image: url("/images/background-index.jpg");
     background-position: center;
     background-size: contain;
     position: relative;
   }
   #hero-content {
-    width: 600px;
+    width: 37.5rem;
     background-color: rgba(51, 47, 47, 0.4);
     box-shadow: 2px 4px 8px rgb(20, 6, 6);
     text-align: center;
     border-radius: 8px;
-    padding: 25px 0;
+    padding: 1.625rem 0;
     margin: 0 auto;
     position: relative;
-    top: 175px;
+    top: 10.94rem;
     color: rgb(255, 238, 238);
   }
   #hero-content h1 {
     text-transform: uppercase;
-    font-size: 32px;
+    font-size: 2rem;
     font-family: "Manrope", sans-serif;
     font-weight: 1000;
-    margin: 0px 0 25px 0;
+    margin: 0 0 1.6rem 0;
   }
   #hero-content p {
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 100;
     font-family: "Manrope", sans-serif;
   }
   #hero-content a {
     text-decoration: none;
     background-color: rgb(231, 157, 59);
-    padding: 2px 4px;
+    padding: .125rem .25rem;
     border-radius: 4px;
     color: black;
-    font-size: 14px;
+    font-size: .875rem;
     font-weight: 700;
     box-shadow: 2px 4px 8px rgb(68, 67, 67);
     text-transform: uppercase;
@@ -47,15 +47,15 @@
   }
   
   #highlights {
-    padding: 12px;
+    padding: .75rem;
     background: linear-gradient(180deg, rgb(152, 189, 186), rgb(184, 194, 193));
   }
   #highlights h2 {
     text-align: center;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 1.875rem;
     color: rgb(59, 65, 64);
-    margin: 12px;
+    margin: .75rem;
   }
   ul a {
     color: rgb(255, 255, 255);
@@ -63,23 +63,22 @@
   #destinations {
     display: flex;
     justify-content: center;
-    margin-bottom: 12px;
-    margin: -25px;
+    margin-bottom: .75rem;
+    margin: -1.5625rem;
   }
   
   .destinations {
-    margin: 20px;
+    margin: 1.25rem;
     text-transform: uppercase;
   }
   .destinations p {
     text-align: center;
-    font-size: 16px;
+    font-size: 1rem;
     color: rgb(124, 123, 123);
-    margin: 12px;
+    margin: .75rem;
   }
   .destinations img {
-    height: auto;
-    width: 375px;
+    width: 95%;
     border-radius: 8px;
     box-shadow: 2px 4px 8px rgb(68, 67, 67);
     object-fit: fill;

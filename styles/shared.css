@@ -1,5 +1,6 @@
-ody {
+body {
     font-family: "Quicksand", sans-serif;
+    height:100%
   }
   
   header {
@@ -16,10 +17,10 @@ ody {
     list-style: none;
     margin: 0;
     padding: 0;
-    margin-right: 12px;
+    margin-right:.75rem;
   }
   header li {
-    padding: 10px;
+    padding: .625rem;
   }
   header a {
     text-decoration: none;
@@ -28,14 +29,14 @@ ody {
   header li a:hover {
     background-color: rgb(73, 78, 78);
     border-radius: 8px;
-    padding: 4px;
+    padding: .25rem;
   }
   #page-logo a {
     padding: 15px;
     font-family: "Oleo Script", sans-serif;
     color: rgb(231, 157, 59);
     text-decoration: none;
-    font-size: 40px;
+    font-size: 3rem;
     text-transform: uppercase;
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
     font-weight: 100;
@@ -44,18 +45,18 @@ ody {
   #social-media {
     display: flex;
     justify-content: center;
-    margin-bottom: 12px;
-    margin: 5px;
+    margin-bottom: .75rem;
+    margin: .3125rem;
   }
   .social-media {
-    padding: 0px 6px;
+    padding: 0px .375rem;
   }
   
   .social-media img {
-    height: auto;
-    width: 50px;
+  
+    width: 3.125rem;
   }
   footer {
     background: linear-gradient(180deg, rgb(35, 35, 35), rgb(68, 67, 67));
-    padding: 5px;
+    padding: .3125rem;
   }
