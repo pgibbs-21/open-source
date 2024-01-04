@@ -73,17 +73,5 @@ main li img {
   main ul {
     grid-template-columns: 1fr;
   }
-}
-@media (max-width: 768) {
-  main li {
-    width:auto;
-    height: 50%;
-  }
-}
 
-@media (max-width: 768px) {
-  main li img{
-    width:50%;
-    height:auto;
-  }
-}
+  
