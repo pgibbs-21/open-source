@@ -10,11 +10,12 @@ body {
 }
 main ul {
   list-style: none;
-  width: 1300px;
+  width: 95%;
+  height: fit-content;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 15px 15px;
-  margin: 0 65px 16px 65px;
+  margin: 0 4rem 1rem 0;
 }
 
 main li:nth-of-type(3) {
