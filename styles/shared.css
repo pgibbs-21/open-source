@@ -1,4 +1,4 @@
-ody {
+body {
     font-family: "Quicksand", sans-serif;
   }
   
@@ -15,7 +15,7 @@ ody {
   header ul {
     display: flex;
     list-style: none;
-    margin: 0;
+    margin: 0 .75rem 0 0;
     padding: 0;
    
   }
