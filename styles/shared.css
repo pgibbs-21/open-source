@@ -7,7 +7,7 @@ header {
   justify-content:space-between;
   align-items: center;
   background: linear-gradient(180deg, rgb(35, 35, 35), rgb(68, 67, 67));
-  height: 5rem;
+  height: 4rem;
   border-radius: 6px;
   padding: 0 5%;
 }
