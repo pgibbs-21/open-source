@@ -12,7 +12,7 @@ main ul {
   list-style: none;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 0.9375rem;
+  gap: 1rem;
   width: 90%;
   padding: 0 0 1rem 4rem;
 }
@@ -34,11 +34,13 @@ main li {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
   border-radius: 6px;
   overflow: hidden;
+  height: 15rem;
+
 }
 
 main li img {
-  width: 65%;
-  height: auto;
+  width: 50%;
+  height: 100%;
   border-radius: 4px;
 }
 
@@ -72,6 +74,13 @@ main li img {
     grid-template-columns: 1fr;
   }
 }
+@media (max-width: 768) {
+  main li {
+    width:auto;
+    height: 50%;
+  }
+}
+
 @media (max-width: 768px) {
   main li img{
     width:50%;

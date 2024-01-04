@@ -38,7 +38,6 @@ header li a:hover {
   font-size: 3rem;
   text-transform: uppercase;
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
-  font-weight: 100;
 }
 
 footer {
@@ -61,4 +60,37 @@ footer {
 footer {
   background: linear-gradient(180deg, rgb(35, 35, 35), rgb(68, 67, 67));
   padding: 0.3125rem;
+}
+
+@media (max-width: 768px) {
+  header {
+    display: grid;
+    width: 100%;
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  header ul {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  #page-logo a {
+    padding: 0;
+  }
+}
+
+@media (max-width: 377px) {
+  header ul {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 377px) {
+  #container-2 {
+    font-size: 1rem;
+    padding-left: 2rem;
+    text-align: center;
+  }
 }
